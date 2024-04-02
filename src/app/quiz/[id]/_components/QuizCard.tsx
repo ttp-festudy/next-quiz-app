@@ -11,6 +11,12 @@ export default function QuizCard({ id }: { id: number }) {
       >
         정답
       </Link>
+      <Link
+        href={`/quiz/${parseInt(id) + 1}`}
+        className="absolute bottom-[20px] right-[20px] border px-[16px] py-[4px] rounded-[8px] hover:bg-[#454545]"
+      >
+        다음
+      </Link>
     </div>
   );
 }
