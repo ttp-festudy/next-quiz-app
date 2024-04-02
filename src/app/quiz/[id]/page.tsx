@@ -3,7 +3,7 @@ import { QuizCard } from "./_components/_index";
 export default function QuizPage({
   params: { id },
 }: {
-  params: { id: number };
+  params: { id: string };
 }) {
   return (
     <main className="flex justify-center items-center h-screen">
